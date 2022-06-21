@@ -1,0 +1,15 @@
+﻿<Window x:Class="kanoc.Kiadás_Típus"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kanoc"
+        mc:Ignorable="d"
+        Title="Kiadás_Típus" Height="400" Width="400" VerticalAlignment="Center" HorizontalAlignment="Center">
+    <Grid>
+        <TextBox x:Name="KiadasTipusHozzaadas" HorizontalAlignment="Left" Height="38" Margin="64,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="281"/>
+        <Button Content="Mentés" HorizontalAlignment="Left" Height="48" Margin="124,131,0,0" VerticalAlignment="Top" Width="128" Click="Button_Click"/>
+
+
+    </Grid>
+</Window>
